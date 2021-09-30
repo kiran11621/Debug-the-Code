@@ -1,0 +1,28 @@
+QUESTION 7
+
+Note: 
+Your need to debug the Javascript code to get the accepted output.
+YOU need to change code in SCRIPT
+ALL IMAGES ARE THERE IN assets file
+FOR BETTER UNDERSTANDING SEE THE OUTPUT VIDEO
+**ADDING CSS AND CHANGING HTML NOT ALLOWED**
+
+tasks:
+
+1. button with text "I am not hovered." have to change on hover to "Some body is hovering me."
+
+2. "Click on me to see current time is: <span style='cursor: pointer;'>00:00:00</span>" get the current time in: <span style='cursor: pointer;'>00:00:00</span> in formate of HH:MM:SS
+
+3. "<button><h1>Next</h1></button>" and "<button><h1>Previous</h1></button>" must be cursor pointer.
+
+4. there will be 3 images image1.jpg, image2.jpg, and image3.jpg current image must be image1.jpg image must change on clicking "<button><h1>Next</h1></button>" to next image. (for better understanding see the output video)
+
+5. image must change on clicking "<button><h1>Previous</h1></button>" to previous image. (for better understanding see the output video)
+
+6. in the form password input is of type="password" have to change to type="text" on clicking "<span style='cursor: pointer;'>reveal password</span>" and span text must change to "hide Password" (for better understanding see the output video)
+
+7. count the words in textarea and display in "<div>0/40</div>" show the error message "<div style='color:red;'><h3>Text can contain only 40 words</h3></div>" if words count in textarea.
+
+8. hide the error message "<div style='color:red;'><h3>Text can contain only 40 words</h3></div>" if the words count in textarea is less then 40 words.
+
+9. disable the submit button is any fields(name,password,textarea) is empty.

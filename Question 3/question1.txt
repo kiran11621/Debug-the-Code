@@ -1,0 +1,48 @@
+QUESTION 1
+
+Note: 
+Your need to debug the HTML code to get the accepted output.
+YOU need to change code in BODY
+**ADDING CSS NOT ALLOWED**
+
+Tasks:
+1. Center the Text "This is title text" and "this is subtitle text"
+
+2. "This is title text" will be H1 tag
+
+3. "this is subtitle text" will be H4 tag
+
+4. "this is List Title" must be bold and it should be H3 tag
+
+5. "List 1","List 2","List 3","List 4" must be in list and having bullets (small black circles)
+
+6. from "List 6" to "List 9" must be nested list and disc (empty circle)
+
+7. after "List 9" there must be "this is text in list format" having space above
+
+8. "Veritatis
+    obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+    nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+    tenetur error, harum nesciunt ipsum debitis quas aliquid." must be bold.
+
+9. "Reprehenderit, quia." must be italic.
+
+10. "Quo neque error repudiandae fuga? Ipsa laudantium molestias eos
+    sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+    recusandae alias error harum maxime adipisci amet laborum." must be bold.
+
+11."Sit laborum ab, eius fugit doloribus tenetur
+    fugiat, temporibus enim commodi iusto libero magni deleniti quod quam
+    consequuntur! Commodi minima excepturi repudiandae velit hic maxime
+    doloremque." must be crossed line eg: T̶h̶i̶s̶ ̶i̶s̶ ̶e̶x̶a̶m̶p̶l̶e̶ ̶t̶e̶x̶t̶
+
+12."Quaerat provident commodi consectetur veniam similique ad
+    earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo
+    fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore
+    suscipit quas? Nulla, placeat." must be underline eg: T̲h̲i̲s̲ ̲i̲s̲ ̲e̲x̲a̲m̲p̲l̲e̲ ̲t̲e̲x̲t̲
+
+13. "Voluptatem quaerat non architecto ab laudantium
+    modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam
+    totam ratione voluptas quod exercitationem fuga." must be italic.
+
+14. "Hightligted text" must Hightligted text with yellow color

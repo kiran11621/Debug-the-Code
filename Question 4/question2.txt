@@ -1,0 +1,44 @@
+QUESTION 2
+
+Note: 
+Your need to debug the HTML code to get the accepted output.
+YOU need to change code in BODY
+ALL IMAGES AND VIDEO ARE THERE IN assets file
+**ADDING CSS NOT ALLOWED**
+
+Tasks: 
+1. add background image *image present in assets file with name: background-image.jpg*.
+
+2. center the "Question 2" and "Debug the html code" and image1.jpg, image2.jpg, and image3.jpg.
+
+3. Adding images image1.jpg, image2.jpg and image3.jpg.
+
+4. image1.jpg, image2.jpg, image3.jpg must be height and width will be 300px (18.75rem).
+
+5. create a progress bar with 42% filled with blue color.
+
+6. fill the svg with color sunrise (yellow) , sunset (orange) and zap (yellow).
+
+7. stroke of svg must be in black color.
+
+8. add video with controls visible.
+
+9. center the video.
+
+10. video must be 500px (31.25rem) width.
+
+11. "ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+     classical Latin literature
+     from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+     College in Virginia,
+     looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going
+     through the cites of
+     the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+     1.10.32 and 1.10.33
+     of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+     book is a treatise
+     on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem
+     ipsum dolor sit
+     amet..", comes from a line in section 1.10.32." 
+     
+     text must be bold, italic, in paragraph.

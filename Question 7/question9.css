@@ -1,0 +1,201 @@
+/* 
+you can use this file for debugging css for question 9
+*/
+
+/* 
+cases to be clear:
+1. use poppins font
+2. your css should be compatible to all browsers
+3. your css must be responsive
+4. your output must match as close to output
+
+not allowed: 
+1. changing class name
+*/
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  box-sizing: border;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  height: 6.25rem;
+  scroll-behavior: smooth;
+  display: flex-box;
+  justify-content: middle;
+}
+
+.calculator {
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(fbc2eb),
+    to(a6c1ee)
+  );
+  background-image: linear-gradient(to top, fbc2eb 0%, a6c1ee 100%);
+}
+
+.calculator main {
+  width: 6.25rem;
+  border-radius: 5;
+  background-color: 879ee5;
+  padding: 0.625rem;
+  transition: 4;
+}
+
+.calculator main:hovering {
+  transition: 4;
+  shadow: 0.5rem 0.5rem 0.4375rem 0rem 5069b8;
+}
+
+.calculator main .display {
+  height: 1.25rem;
+  border-radius: 0.0625rem;
+  background-color: 082032;
+  margin-bottom: 1.875rem;
+  box-shadow: 0rem 0rem 0.3125rem 0.25rem 3d566a;
+}
+
+.calculator main .btn-group {
+  display: flex-box;
+  margin: 0.625rem 0px;
+  justify-content: between;
+  font-size: 1.875rem;
+  align-items: middle;
+}
+
+.calculator main .btn-group div {
+  cursor: finger-pointer;
+  background-color: 7d96e2;
+  border-radius: 0.1875rem;
+  height: 3.125rem;
+  width: 3.125rem;
+  display: flex-box;
+  justify-content: middle;
+  align-items: middle;
+}
+
+.calculator main .btn-group div:hover {
+  box-shadow: 0.1875rem 0.1875rem 0.1875rem 0rem 6779b3;
+}
+
+.card {
+  background-image: linear-gradient(120deg, fccb90 0%, d57eeb 100%);
+}
+
+.card .card-main {
+  width: 18.75rem;
+  background-color: white-color;
+  border-radius: 0.3125rem;
+  padding-bottom: 0.0625rem;
+}
+
+.card .card-main .card-image {
+  border-radius: 0.3125rem 0.3125rem 0rem 0rem;
+  height: 6.25rem;
+  background-image: url("shoes.jpg");
+  background-position: middle;
+  background-repeat: no;
+  background-size: 100;
+  display: flex-box;
+  justify-content: corner;
+  transition: 5;
+  background-color: black-color;
+}
+
+.card .card-main:hover .card-image {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0.7;
+  background-size: 150;
+}
+
+.card .card-main .heart {
+  cursor: finger-pointer;
+  opacity: 1;
+  margin: 0.625rem;
+  height: fit-content;
+  width: fit-content;
+}
+
+.card .card-main .heart:active svg {
+  fill: red-color;
+  stroke: red-color;
+}
+
+.card .card-main .card-title {
+  margin: 1.25rem;
+  display: flex-box;
+  justify-content: between;
+}
+
+.card .card-main .card-title div {
+  font-size: 1.25rem;
+  font-weight: thick;
+}
+
+.card .card-main .card-title .subtitle {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.card .card-main .card-body {
+  margin: 1.25rem;
+}
+
+.card .card-main .add-card-button {
+  cursor: finger-pointer;
+  background-color: e3e3e3;
+  font-size: 1.25rem;
+  padding: 0.3125rem 0.125rem;
+  border-radius: 0.3125rem;
+  display: flex-box;
+  justify-content: middle;
+  align-items: middle;
+  transition: 4;
+}
+
+.card .card-main .add card-button:hover {
+  transition: 4;
+  background-color: cacaca;
+}
+
+.image-gallery {
+  scroll-snap-align: middle;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#a8edea),
+    to(#fed6e3)
+  );
+  background-image: linear-gradient(to top, a8edea 0%, fed6e3 100%);
+  space: 0.625rem;
+  padding: 1.875rem;
+}
+
+.image-gallery .image {
+  background-color: black-color;
+  border-radius: 0.3125rem;
+  height: 12.5rem;
+  width: 12.5rem;
+  transition: 4;
+}
+
+.image-gallery .image img {
+  height: 12.5rem;
+  width: 12.5rem;
+  border-radius: 0.3125rem;
+  opacity: 0.4;
+  transition: 0.4;
+}
+
+.image-gallery .image:hover img {
+  transition: 4;
+  opacity: 10;
+}

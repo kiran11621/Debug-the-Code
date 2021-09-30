@@ -1,0 +1,51 @@
+QUESTION 9
+
+Note: 
+Your need to debug the CSS code to get the accepted output.
+YOU need to change code in CSS
+ALL IMAGES ARE THERE IN assets file
+FOR BETTER UNDERSTANDING SEE THE OUTPUT VIDEO
+**CHANGING HTML NOT ALLOWED**
+**Your output must be as close as possible to output video**
+
+tasks:
+
+1. you must use poppins font in css.
+
+2. every section must have gradient colors.
+
+3. create a calculator design using css with color: #879ee5.
+
+4. buttons of calculator with color: #7d96e2
+
+5. getting shadow on calculator with color: #5069b.
+
+6. getting the inset shadow on calculator buttons with color: #6779b3.
+
+7. calculator and buttons will have 5px border-radius.
+
+8. calculator must be width 300px (18.75rem)
+
+9. section should snap on scroll (see the output video).
+
+10. calculator must be centered of section.
+
+11. card must be centered of section.
+
+12. card must be height 200px (12.5rem)
+
+13. card image must zoom on hovering the image. (for better understanding see the output video)
+
+14. heart must be turn red on clicking the heart. (for better understanding see the output video)
+
+15. heart must be at top right of card image. (for better understanding see the output video)
+
+16. image gallery must be having images with size of height 200px (12.5rem) width 200px (12.5rem).
+
+17. images must have border-radius of 5px.
+
+18. images must have gap of 10px (0.625rem).
+
+19. image gallery must have responsive(images must change there position as the screen size changes).
+
+20. image must scale in size on hover.

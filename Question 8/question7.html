@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 7</title>
+</head>
+
+<body>
+
+    <button id="hoverMe">I am not hovered.</button>
+    <div style="margin:40px;" id="clock">
+        Click on me to see current time is: <span style="cursor: pointer;">00:00:00</span>
+    </div>
+    <div style="display:flex;justify-content: center;" id="carousel">
+        <button>
+            <h1>Next</h1>
+        </button>
+        <img src="/question7/assets/image1.jpg" alt="image" height="300px" width="300px">
+        <button>
+            <h1>Previous</h1>
+        </button>
+    </div>
+    <div>
+        <form id="signform" action="#">
+            <div id="name">
+                Name: <input type="text" value="" placeholder="your name">
+            </div>
+            <div id="password">
+                Password: <input type="password" value="" placeholder="your password"><span style="cursor: pointer;">
+                    reveal password</span>
+            </div>
+            <div id="textArea">
+                <textarea cols="30" rows="10"></textarea>
+                <div>0/40</div>
+                <div style="color:red;">
+                    <h3>Text can contain only 40 words</h3>
+                </div>
+            </div>
+            <div id="button">
+                <button>Submit form</button>
+            </div>
+
+        </form>
+    </div>
+    <!-- 
+        
+        You need to change the below code 
+
+    -->
+    <script>
+        /* 
+        Change text of hoverMe from -> I am not hovered. -> Some body is hovering me.
+        Change text again to normal
+        */
+        const hoverMe = document.getElement("hoverme");
+        hoverMe.eventListener("hoverIn", () => {
+            hoverMe.innerHTML = "Some body is hovering me.";
+        })
+        hoverMe.eventListener("hoverOut", () => {
+            hoverMe.innerHTML = "I am not hovered.";
+        })
+
+        /*
+        get the current time on clicking the span element
+        time must be in formate HH:MM:SS formate
+        */
+        const currentTime = document.getElement("clock")
+        const span = currentTime.span;
+        span.eventListener('onClick', () => {
+            const date = new Date();
+            span.HTML = date.hour() + date.minute() + date.second();
+        })
+
+        /*
+        add cursor pointer to carousel id next and Previous div from dom element
+        */
+        const carousel = document.getElement("carousel");
+        const next = carousel.next
+        const prev = carousel.prev
+        const image = carousel.image;
+        next.cursor = "pointer";
+        prev.cursor = "pointer";
+
+        /*
+        change the images on clicking next or previous in order - 1: image1.jpg - 2: image2.jpg - 3: image3.jpg
+        */
+        const imagesUrl = ["image1.jpg", "image2.jpg", "image3.jpg"];
+        let currentIndex = 0;
+        next.eventListener("onClick", () => {
+            if (currentIndex == imagesUrl.lenght) {
+                currentIndex = 0;
+            } else {
+                currentIndex++;
+            }
+            image.src = imagesUrl[currentIndex]
+        });
+        prev.eventListener("onClick", () => {
+            if (currentIndex === 0) {
+                currentIndex = 3;
+            } else {
+                currentIndex--;
+            }
+            image.src = imagesUrl[currentIndex]
+        })
+
+        /*
+        disable the submit button if any field is empty
+        hide the error text in textarea show only if string is greater then 40 words, hide error if words getting lower than 40
+        */
+        const form = document.getElement("signForm");
+        const name = document.getElement("nameValue");
+        const password = document.getElement("passWord");
+        const textArea = document.getElement("textarea");
+        const button = document.getElement("submitButton")
+        textArea.display = "none"
+        textArea.eventListener("onKeyPress", (text) => {
+            textCount = text.split("").lenght;
+            textArea.innerHTML = `${textCount}/40`
+            if (textCount >= 40) {
+                textArea.display = "block"
+            } else {
+                textArea.display = "none"
+            }
+        })
+
+        /*
+        show password after clicking the <span> reveal password</span> then change the text to => hide Password
+        then clicking again then change to <span> reveal password</span>
+        and change the input type after clicking of text from "password" to "text"
+        */
+        password.eventListener("onClick", () => {
+            const currentText = password;
+            if (currentText === " reveal password") {
+                password = " hide Password"
+                password.type = "text"
+            } else {
+                password = " reveal password"
+                password.type = "password"
+            }
+        })
+
+        /*
+        remove the disable if all fields are not empty
+        add disable if any fields are empty
+        */
+        form.eventListener("onKeyPress", () => {
+            if (textArea.value.lenght !== 0 && name.lenght !== 0 && password.lenght !== 0) {
+                button.disable = false;
+            } else {
+                button.disable = true;
+            }
+        })
+
+        /*
+        after clicking submit button set all inputs fields to empty and disable the submit button again
+        page should not get refresh on submit
+        */
+        form.addEventListener("OnSubmit", () => {
+            textArea = ""
+            name = ""
+            password = ""
+            button.disable = true;
+        })
+    </script>
+    <!--
+         You need to change the above code 
+    -->
+</body>
+
+</html>
