@@ -1,4 +1,4 @@
-QUESTION 7
+QUESTION 8
 
 Note: 
 Your need to debug the Javascript code to get the accepted output.
