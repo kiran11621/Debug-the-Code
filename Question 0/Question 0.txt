@@ -1,0 +1,54 @@
+Quick Brain Teaser - 
+
+***********************************
+
+(i). What is the output?
+
+    #include<stdio.h>
+    int main() 
+    {
+        printf("Hello World!");
+    }
+
+***********************************
+
+***********************************
+
+(ii). Write the meaning of the syntax in words.
+
+    !(a^b)
+
+Hint:
+----
+Question:
+    (a==b)
+Ans:
+    a is equal to b (implies)
+
+***********************************
+
+***********************************
+
+(iii). What is happening in the code below ? (2 to 5 words)
+
+    a = a * b
+    b = a / b
+    a = a / b
+
+***********************************
+
+***********************************
+
+(iv). For what purpose we can use below code snippet? (4 to 10 words)
+
+    for (int l=0; l<strng.length(); l++)
+    {
+        if ( strng.charAt(l)== searchedcharacter)
+        {
+            rslt ++;
+        }
+    }
+
+***********************************
+
+

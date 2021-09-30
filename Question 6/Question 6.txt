@@ -1,0 +1,68 @@
+--------------------------------------------
+
+Problem Statement:
+
+Two positive integers called a and b are given you. In one move you can increase a by 1 (replace a with a+1). You task is to find the minimum number of moves you need to do in otder to make a divisible by b. It is possible, that you have to make 0 moves, as a is already divisible by b. 
+
+--------------------------------------------
+
+Input:
+The first line of the input contains one integer t — the number of test cases. Then t test cases follow.
+
+The only line of the test case contains two integers a and b.
+
+--------------------------------------------
+
+Output:
+Print the answer — the minimum number of moves you need to do in order to make a divisible by b.
+
+--------------------------------------------
+
+Constraints: 
+1≤t≤10^9
+1 ≤ a,b≤ 100000000
+
+--------------------------------------------
+
+Example:
+for 100 and 13 output is 4
+
+--------------------------------------------
+
+Test Cases:
+
+Input: 
+5
+10 4
+13 9
+123 456
+92 46
+
+---------------------------------------------
+
+Bug Code:
+
+#include <stdio.h>
+using namespace std;
+ 
+int main() 
+{
+    short t;
+    cin>>t;
+    
+    int a,b;
+    
+    while(t--) 
+    {
+        cin>>a>>b;
+        cout<<-(a%b);
+    }
+    return 0;
+}
+
+-------------------
+
+Hint:
+Check for Constraints
+
+-------------------
