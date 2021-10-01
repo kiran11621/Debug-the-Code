@@ -21,12 +21,7 @@ OR
 2. Go to location where you want to clone the Files.
 3. 
 ```bash
-  git init
-```
-4. 
-Clone the project
-```bash
-  gh repo clone kiran11621/Debug-the-Code
+  git clone https://github.com/kiran11621/Debug-the-Code.git
 ```
 
 ## Links for Problem file submission
