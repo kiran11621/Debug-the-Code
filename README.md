@@ -9,6 +9,20 @@
  - All Participants are expected to abide by the rules ®ulations of the contest.
  - Any violation of the Rules & Regulations shall lead to the cancellation of the candidature from the competition.
  - All decisions made by the judges are final and are not subject to appeal.
+
+## How to Download
+1. Open Git Bash/Command Prompt
+2. Go to location where you want to clone the Files.
+3. 
+```bash
+  git init
+```
+4. 
+Clone the project
+```bash
+  gh repo clone kiran11621/Debug-the-Code
+```
+
 ## Links for Problem file submission
 
 | Question Number | Submission Link     | 
