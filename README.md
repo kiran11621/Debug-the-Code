@@ -15,6 +15,8 @@
 2. Download ZIP.
 3. Extract it.
 
+OR
+
 1. Open Git Bash/Command Prompt
 2. Go to location where you want to clone the Files.
 3. 
