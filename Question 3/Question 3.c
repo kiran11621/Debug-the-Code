@@ -1,8 +1,12 @@
 /*
 We have a program that should count the number of threes and sevens in a series
 of numbers. Unfortunately, it keeps getting the wrong answer for the number of
-sevens
+sevens.
+For example we run the code with data 7 3 7 0 2
+output : Threes 1 Sevens 4
+(Note: This output may change if you run this code on your machine)
 */
+
 
 #include <stdio.h>
 char line[100];
