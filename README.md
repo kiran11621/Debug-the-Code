@@ -11,6 +11,10 @@
  - All decisions made by the judges are final and are not subject to appeal.
 
 ## How to Download
+1. Click on Code DropDown.
+2. Download ZIP.
+3. Extract it.
+
 1. Open Git Bash/Command Prompt
 2. Go to location where you want to clone the Files.
 3. 
