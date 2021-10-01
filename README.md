@@ -24,6 +24,7 @@
 | `Question 08` | `For submission of this question send zip file on: `kiran11621@gmail.com|
 
 ## Points
+Total Points: 4000
 
 | Question Number | Points     | 
 | :-------- | :------- |
