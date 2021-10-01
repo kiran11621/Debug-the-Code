@@ -23,6 +23,20 @@
 | `Question 07` | `For submission of this question send zip file on: `kiran11621@gmail.com|
 | `Question 08` | `For submission of this question send zip file on: `kiran11621@gmail.com|
 
+## Points
+
+| Question Number | Points     | 
+| :-------- | :------- |
+| `Question 00` | 400|
+| `Question 01` | 100|
+| `Question 02` | 200|
+| `Question 03` | 300|
+| `Question 04` | 400|
+| `Question 05` | 500|
+| `Question 06` | 600|
+| `Question 07` | 700|
+| `Question 08` | 800|
+
 ## For queries contact:
 kiran11621@gmail.com
 +91 8850969261
